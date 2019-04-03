@@ -1,3 +1,8 @@
+/* Recursive form  of fibonnaci Sequence 
+ * @param n 
+ * @return {number[]} || {function}
+*/
+
 export default function fibo(n) {
   if ( n <= 1) {
     return n;
