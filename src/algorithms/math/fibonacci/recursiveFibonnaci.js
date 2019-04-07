@@ -4,7 +4,6 @@
  * @param n 
  * @return {number[]} || {function}
 */
-
 export default function getNthFib(n) {
 	if(n === 1) {
 		return [0,1];
@@ -14,5 +13,3 @@ export default function getNthFib(n) {
 		return s;
 	}
 }
-
-console.log(getFib(8));
